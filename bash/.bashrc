@@ -17,13 +17,14 @@ alias pu='sudo pacman -Syu'
 alias pr='sudo pacman -Rs'
 alias ps='sudo pacman -Ss'
 alias pc='sudo pacman -Scc'
+alias esetup='nano ~/dotfiles/setup.sh'
 
 # nvm
 source /usr/share/nvm/init-nvm.sh
 
 # pnpm
 alias pn='pnpm'
-export PNPM_HOME="~/.local/share/pnpm"
+export PNPM_HOME="/home/konn/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
