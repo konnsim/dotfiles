@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-WORKLOG_FILE=".worklog_commits" # add this file to .gitignore in all your projects
+
+WORKLOG_FILE=".workog_commits"
 SINCE_DATE="${1:-yesterday}"
 
 git log --since="$SINCE_DATE" --no-merges --pretty=format:"%H %s" --reverse \
@@ -9,4 +10,4 @@ git log --since="$SINCE_DATE" --no-merges --pretty=format:"%H %s" --reverse \
     echo "$title"
     echo "$hash" >> "$WORKLOG_FILE"
   fi
-done | tee /dev/tty | clip # Requires an alis for clip
+done | tee /dev/tty | clip
