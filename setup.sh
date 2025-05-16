@@ -25,12 +25,13 @@ OFFICIAL_PACKAGES=(
     clipman              # clipboard manager daemon
     wl-clipboard         # cli clipboard tools
     less                 # Pager
+    nvim                 # real IDE
 )
 
 # Define an array of packages to install from the AUR (if any)
 AUR_PACKAGES=(
-    # yay             # AUR helper (install this first if needed)
-    # Add other AUR packages here
+    cursor-bin           # AI IDE (VSC*de fork)
+    zen-browser-bin      # firefox based browser
     # Example: wofi nerd-fonts-complete
 )
 
