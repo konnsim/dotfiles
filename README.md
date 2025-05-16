@@ -1,4 +1,4 @@
-# Konnsim's Arch Linux Dotfiles
+# konn's Arch Linux Dotfiles
 
 Welcome to my personal dotfiles repository for my Arch Linux setup. This repository contains the configuration files for my window manager, status bar, and other essential applications, managed using GNU Stow.
 
