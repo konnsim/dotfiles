@@ -15,12 +15,13 @@ echo "Dotfiles directory: ${DOTFILES_DIR}"
 
 # Define an array of packages to install from the official repositories
 OFFICIAL_PACKAGES=(
-    git                  
-    base-devel           
+    git                  # Probably already installed to get this repo, but maybe not
+    base-devel
+    man-db               # rtfm
     stow                 # To manage dotfiles
     hyprland             # Wayland compositor
     waybar               # Wayland status bar
-    networkmanager       
+    networkmanager
     network-manager-applet # waybar tray applet
     clipman              # clipboard manager daemon
     wl-clipboard         # cli clipboard tools
