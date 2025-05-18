@@ -20,6 +20,7 @@ OFFICIAL_PACKAGES=(
     man-db               # rtfm
     stow                 # To manage dotfiles
     hyprland             # Wayland compositor
+    hyprpaper		 # background manager
     waybar               # Wayland status bar
     networkmanager
     network-manager-applet # waybar tray applet
