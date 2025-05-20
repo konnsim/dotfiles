@@ -15,26 +15,28 @@ echo "Dotfiles directory: ${DOTFILES_DIR}"
 
 # Define an array of packages to install from the official repositories
 OFFICIAL_PACKAGES=(
-    git                  # Probably already installed to get this repo, but maybe not
+    git                  	# probably already installed to get this repo, but maybe not
     base-devel
-    man-db               # rtfm
-    stow                 # To manage dotfiles
-    hyprland             # Wayland compositor
-    hyprpaper		 # background manager
-    waybar               # Wayland status bar
+    alacritty            	# superior term
+    man-db               	# rtfm
+    stow                 	# To manage dotfiles
+    hyprland             	# wayland compositor
+    hyprpaper		 	# background manager
+    waybar               	# wayland status bar
     networkmanager
-    network-manager-applet # waybar tray applet
-    clipman              # clipboard manager daemon
-    wl-clipboard         # cli clipboard tools
-    less                 # Pager
-    nvim                 # real IDE
+    network-manager-applet 	# waybar tray applet
+    clipman              	# clipboard manager daemon
+    wl-clipboard         	# cli clipboard tools
+    less                 	# pager
+    ttf-jetbrains-mono-nerd 	# font pack used in configs
+    nvim                 	# real IDE
 )
 
 # Define an array of packages to install from the AUR (if any)
 AUR_PACKAGES=(
+    neofetch		 # truly essential package
     cursor-bin           # AI IDE (VSC*de fork)
     zen-browser-bin      # firefox based browser
-    # Example: wofi nerd-fonts-complete
 )
 
 # --- Package Installation ---
